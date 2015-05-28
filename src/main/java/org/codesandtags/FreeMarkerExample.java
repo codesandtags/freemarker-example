@@ -2,10 +2,10 @@ package org.codesandtags;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-import freemarker.template.TemplateException;
 
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+import java.io.StringReader;
+import java.util.Locale;
 
 /**
  * Clase de ejemplo utilizando FreeMarker para obtener
